@@ -21,3 +21,15 @@ body {
   white-space: nowrap;
 }
 
+.form-page {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.form-header {
+  margin-bottom: 28px;
+}
+
+.form-header h1 {
+  font-size: 1.9rem;
+  margin-bottom: 6px;
