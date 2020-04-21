@@ -45,3 +45,14 @@ body {
   flex-direction: column;
   gap: 22px;
 }
+
+.form-section {
+  background-color: #ffffff;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  padding: 22px 24px;
+}
+
+.form-section legend {
+  font-weight: 700;
+  font-size: 1.05rem;
