@@ -56,3 +56,15 @@ body {
 .form-section legend {
   font-weight: 700;
   font-size: 1.05rem;
+  padding: 0 8px;
+  color: #1e293b;
+}
+
+.section-hint {
+  font-size: 0.85rem;
+  color: #64748b;
+  margin-bottom: 16px;
+}
+
+.req {
+  color: #dc2626;
