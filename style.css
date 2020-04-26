@@ -80,3 +80,15 @@ body {
 .field {
   display: flex;
   flex-direction: column;
+  gap: 6px;
+}
+
+.full-span {
+  grid-column: 1 / -1;
+}
+
+.field label {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: #334155;
+}
