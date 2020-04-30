@@ -103,3 +103,15 @@ body {
   color: #0f172a;
   transition: border-color 0.15s ease, box-shadow 0.15s ease;
 }
+
+/* required + invalid states (only show red after user types something) */
+.field input:required {
+  border-left: 3px solid #94a3b8;
+}
+
+.field input:not(:placeholder-shown):invalid {
+  border-color: #dc2626;
+  background-color: #fef2f2;
+}
+
+.field input:not(:placeholder-shown):valid {
