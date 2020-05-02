@@ -115,3 +115,15 @@ body {
 }
 
 .field input:not(:placeholder-shown):valid {
+  border-color: #16a34a;
+}
+
+/* focus-visible for keyboard users */
+.field input:focus-visible,
+.btn-submit:focus-visible,
+.btn-secondary:focus-visible {
+  outline: 3px solid #2563eb;
+  outline-offset: 2px;
+}
+
+/* custom radio buttons & checkboxes without breaking tab/space/arrows */
