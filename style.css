@@ -127,3 +127,15 @@ body {
 }
 
 /* custom radio buttons & checkboxes without breaking tab/space/arrows */
+.choice-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 6px;
+}
+
+.custom-radio,
+.custom-checkbox {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
