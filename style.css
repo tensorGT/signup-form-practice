@@ -174,3 +174,15 @@ body {
   border-radius: 50%;
 }
 
+.check-mark {
+  border-radius: 5px;
+}
+
+/* checked states */
+.custom-radio input:checked + .radio-mark {
+  border-color: #2563eb;
+}
+
+.custom-radio input:checked + .radio-mark::after {
+  content: "";
+  position: absolute;
