@@ -186,3 +186,14 @@ body {
 .custom-radio input:checked + .radio-mark::after {
   content: "";
   position: absolute;
+  inset: 3px;
+  border-radius: 50%;
+  background-color: #2563eb;
+}
+
+.custom-checkbox input:checked + .check-mark {
+  background-color: #2563eb;
+  border-color: #2563eb;
+}
+
+.custom-checkbox input:checked + .check-mark::after {
