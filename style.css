@@ -209,3 +209,15 @@ body {
 }
 
 /* keyboard focus ring on the custom control */
+.custom-radio input:focus-visible + .radio-mark,
+.custom-checkbox input:focus-visible + .check-mark {
+  outline: 3px solid #2563eb;
+  outline-offset: 2px;
+}
+
+.custom-checkbox input:required:invalid + .check-mark {
+  border-color: #94a3b8;
+}
+
+.choice-text {
+  display: flex;
