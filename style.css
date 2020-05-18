@@ -221,3 +221,15 @@ body {
 
 .choice-text {
   display: flex;
+  flex-direction: column;
+  font-size: 0.94rem;
+}
+
+.choice-text small {
+  color: #64748b;
+  font-size: 0.82rem;
+}
+
+/* action buttons */
+.form-actions {
+  display: flex;
