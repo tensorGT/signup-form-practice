@@ -233,3 +233,14 @@ body {
 /* action buttons */
 .form-actions {
   display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+.btn-submit,
+.btn-secondary {
+  font-family: inherit;
+  font-size: 0.95rem;
+  font-weight: 600;
+  padding: 12px 22px;
+  border-radius: 8px;
