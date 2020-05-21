@@ -244,3 +244,15 @@ body {
   font-weight: 600;
   padding: 12px 22px;
   border-radius: 8px;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.btn-submit {
+  background-color: #2563eb;
+  color: #ffffff;
+}
+
+.btn-submit:hover {
+  background-color: #1d4ed8;
+}

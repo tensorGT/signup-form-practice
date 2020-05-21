@@ -6,3 +6,4 @@ Trying to build an accessible checkout / account form without any CSS framework 
 - Grouping inputs with `<fieldset>` and `<legend>`
 - Connecting every `<label>` with `for` and `id`
 - Using `:focus-visible` so keyboard Tab navigation is super clear
+- Validation styling with `:required`, `:invalid`, and `:valid`
