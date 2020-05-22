@@ -256,3 +256,15 @@ body {
 .btn-submit:hover {
   background-color: #1d4ed8;
 }
+
+.btn-secondary {
+  background-color: #e2e8f0;
+  color: #1e293b;
+}
+
+.btn-secondary:hover {
+  background-color: #cbd5e1;
+}
+
+@media (max-width: 600px) {
+  .field-grid {
