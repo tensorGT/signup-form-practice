@@ -7,3 +7,4 @@ Trying to build an accessible checkout / account form without any CSS framework 
 - Connecting every `<label>` with `for` and `id`
 - Using `:focus-visible` so keyboard Tab navigation is super clear
 - Validation styling with `:required`, `:invalid`, and `:valid`
+- Custom radio buttons and checkboxes that still work with Tab, Space, and Arrow keys

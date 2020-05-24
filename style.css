@@ -268,3 +268,15 @@ body {
 
 @media (max-width: 600px) {
   .field-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .form-actions {
+    flex-direction: column-reverse;
+  }
+
+  .btn-submit,
+  .btn-secondary {
+    width: 100%;
+  }
+}
